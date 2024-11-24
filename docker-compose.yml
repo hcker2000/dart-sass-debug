@@ -1,0 +1,8 @@
+version: "3.2"
+services:
+  dart-sass:
+    build: bin/dart-sass
+    user: 1000:1000
+    restart: always
+    volumes:
+      - ./sass:/sass
